@@ -1879,12 +1879,12 @@ public class MainFrame extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_exchangeBtnMouseClicked
 
-    public void doHttpRequest() {//批量发放优惠券时使用 把参数去掉
+    public void doHttpRequest() {
         Long[] uids = new Long[]{};
         String tmp = data.getText();
         if (uids.length == 0) {
             doHttpRequest(data.getText());
-        } else {
+        } else {//批量调用某个接口，userId为可变参数
             for (Long uid : uids) {
                 doHttpRequest(tmp + "&userId=" + uid.toString());
                 try {
