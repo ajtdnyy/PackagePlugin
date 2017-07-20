@@ -1,7 +1,9 @@
 # PackagePlugin
 辅助工具是一款为开发人员打增量包、调试接口等提供方便，致力于提供开发效率的工具。
 
-#软件简介 <a href='http://www.vbox.top?from=github' target='_blank'>ajtdnyy的博客</a>
+## <a href='http://www.vbox.top?from=github' target='_blank'>ajtdnyy的博客</a>
+
+# 软件简介 
 
 1.下图所示，根据svn提交日志进行项目打增量包。特别提醒：打包之前请使用开发工具将项目编译。若不清楚有些输入框输入内容的作用，请使用鼠标悬停上输入框上，会有提示。浏览完项目地址点击查看按钮可以显示项目svn日志，注意项目必须是svn管理的。
 ![image](http://www.vbox.top/wp-content/uploads/2017/07/QQ%E6%88%AA%E5%9B%BE20170712092940.png)
@@ -11,4 +13,4 @@
 ![image](http://www.vbox.top/wp-content/uploads/2017/07/QQ%E6%88%AA%E5%9B%BE20170712093233.png)
 ![image](http://www.vbox.top/wp-content/uploads/2017/07/QQ%E6%88%AA%E5%9B%BE20170712093248.png)
 
-#<a href='http://www.vbox.top?from=github' target='_blank'>ajtdnyy的博客</a>
+# <a href='http://www.vbox.top?from=github' target='_blank'>ajtdnyy的博客</a>
