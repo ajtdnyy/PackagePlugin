@@ -1,0 +1,12 @@
+<!DOCTYPE abatorConfiguration PUBLIC "-//Apache Software Foundation//DTD Abator for iBATIS Configuration 1.0//EN" "./abator-config_1_0.dtd" >
+<abatorConfiguration>
+    <abatorContext generatorSet="Java5">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/mysql" userId="root" password="root">
+            <classPathEntry location="f:/mysql-connector-java-5.1.26.jar"/>
+    </jdbcConnection>
+    <javaModelGenerator targetPackage="test.model" targetProject="out" />
+    <sqlMapGenerator targetPackage="test.dao.sqlmaps" targetProject="out" />
+    <daoGenerator type="spring" targetPackage="test.dao" targetProject="out"/>
+    <table tableName="test" domainObjectName="Test"/>
+  </abatorContext>
+</abatorConfiguration>
